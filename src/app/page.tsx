@@ -6,6 +6,8 @@ import Header from "./components/Header";
 import SectionExtension from "./components/SectionExtension";
 import SectionCustomize from "./components/SectionCustomize";
 import SectionWork from "./components/SectionWork";
+import SectionSponser from "./components/SectionSponser";
+
 
 export default function Home() {
   return (
@@ -18,6 +20,7 @@ export default function Home() {
       <SectionExtension />
       <SectionCustomize />
       <SectionWork />
+      <SectionSponser />
     </div>
   );
 }
